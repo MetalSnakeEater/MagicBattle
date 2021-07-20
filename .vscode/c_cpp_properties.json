@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "MagicBattleEditor Editor Win64 Development (MagicBattle)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\Projects\\UE4\\MagicBattle\\.vscode\\compileCommands_MagicBattle.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\Projects\\UE4\\MagicBattle\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
