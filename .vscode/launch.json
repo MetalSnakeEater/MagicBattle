@@ -5,124 +5,124 @@
 			"name": "MagicBattle (Debug)",
 			"request": "launch",
 			"preLaunchTask": "MagicBattle Win64 Debug Build",
-			"program": "D:\\Projects\\UE4\\MagicBattle\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"program": "D:\\UE 25\\Projects\\MagicBattle\\Binaries\\Win64\\UE4-Win64-Debug.exe",
 			"args": [
 			],
-			"cwd": "D:\\Programs\\UE_4.26",
+			"cwd": "D:\\UE 25\\UE_4.26",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "D:\\Programs\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "D:\\UE 25\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "MagicBattle (DebugGame)",
 			"request": "launch",
 			"preLaunchTask": "MagicBattle Win64 DebugGame Build",
-			"program": "D:\\Projects\\UE4\\MagicBattle\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"program": "D:\\UE 25\\Projects\\MagicBattle\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
 			"args": [
 			],
-			"cwd": "D:\\Programs\\UE_4.26",
+			"cwd": "D:\\UE 25\\UE_4.26",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "D:\\Programs\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "D:\\UE 25\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "MagicBattle (Development)",
 			"request": "launch",
 			"preLaunchTask": "MagicBattle Win64 Development Build",
-			"program": "D:\\Projects\\UE4\\MagicBattle\\Binaries\\Win64\\UE4.exe",
+			"program": "D:\\UE 25\\Projects\\MagicBattle\\Binaries\\Win64\\UE4.exe",
 			"args": [
 			],
-			"cwd": "D:\\Programs\\UE_4.26",
+			"cwd": "D:\\UE 25\\UE_4.26",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "D:\\Programs\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "D:\\UE 25\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "MagicBattle (Shipping)",
 			"request": "launch",
 			"preLaunchTask": "MagicBattle Win64 Shipping Build",
-			"program": "D:\\Projects\\UE4\\MagicBattle\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"program": "D:\\UE 25\\Projects\\MagicBattle\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
 			"args": [
 			],
-			"cwd": "D:\\Programs\\UE_4.26",
+			"cwd": "D:\\UE 25\\UE_4.26",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "D:\\Programs\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "D:\\UE 25\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "MagicBattle (Test)",
 			"request": "launch",
 			"preLaunchTask": "MagicBattle Win64 Test Build",
-			"program": "D:\\Projects\\UE4\\MagicBattle\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"program": "D:\\UE 25\\Projects\\MagicBattle\\Binaries\\Win64\\UE4-Win64-Test.exe",
 			"args": [
 			],
-			"cwd": "D:\\Programs\\UE_4.26",
+			"cwd": "D:\\UE 25\\UE_4.26",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "D:\\Programs\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "D:\\UE 25\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "MagicBattleEditor (Debug)",
 			"request": "launch",
 			"preLaunchTask": "MagicBattleEditor Win64 Debug Build",
-			"program": "D:\\Programs\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"program": "D:\\UE 25\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
 			"args": [
-				"D:\\Projects\\UE4\\MagicBattle\\MagicBattle.uproject"
+				"D:\\UE 25\\Projects\\MagicBattle\\MagicBattle.uproject"
 			],
-			"cwd": "D:\\Programs\\UE_4.26",
+			"cwd": "D:\\UE 25\\UE_4.26",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "D:\\Programs\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "D:\\UE 25\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "MagicBattleEditor (DebugGame)",
 			"request": "launch",
 			"preLaunchTask": "MagicBattleEditor Win64 DebugGame Build",
-			"program": "D:\\Programs\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"program": "D:\\UE 25\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
 			"args": [
-				"D:\\Projects\\UE4\\MagicBattle\\MagicBattle.uproject"
+				"D:\\UE 25\\Projects\\MagicBattle\\MagicBattle.uproject"
 			],
-			"cwd": "D:\\Programs\\UE_4.26",
+			"cwd": "D:\\UE 25\\UE_4.26",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "D:\\Programs\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "D:\\UE 25\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "MagicBattleEditor (Development)",
 			"request": "launch",
 			"preLaunchTask": "MagicBattleEditor Win64 Development Build",
-			"program": "D:\\Programs\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"program": "D:\\UE 25\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor.exe",
 			"args": [
-				"D:\\Projects\\UE4\\MagicBattle\\MagicBattle.uproject"
+				"D:\\UE 25\\Projects\\MagicBattle\\MagicBattle.uproject"
 			],
-			"cwd": "D:\\Programs\\UE_4.26",
+			"cwd": "D:\\UE 25\\UE_4.26",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "D:\\Programs\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "D:\\UE 25\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "Generate Project Files",
 			"type": "clr",
 			"request": "launch",
-			"program": "D:\\Programs\\UE_4.26\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"program": "D:\\UE 25\\UE_4.26\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
 			"console": "externalTerminal",
 			"args": [
 				"-projectfiles",
 				"-vscode",
-				"-project=D:\\Projects\\UE4\\MagicBattle\\MagicBattle.uproject",
+				"-project=D:\\UE 25\\Projects\\MagicBattle\\MagicBattle.uproject",
 				"-game",
 				"-engine"
 			],
 			"internalConsoleOptions": "openOnSessionStart",
-			"cwd": "D:\\Programs\\UE_4.26"
+			"cwd": "D:\\UE 25\\UE_4.26"
 		}
 	]
 }

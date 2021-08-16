@@ -2,6 +2,7 @@
 
 
 #include "CharacterBase.h"
+#include "MagicBattle/ActorComponents/HealthComponentBase.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
@@ -21,6 +22,7 @@ ACharacterBase::ACharacterBase(const class FObjectInitializer& ObjectInitializer
 	Camera->SetupAttachment(SpringArm);
 	Camera->bUsePawnControlRotation = true;
 
+	HealthComponent = CreateDefaultSubobject<UHealthComponentBase>(TEXT("Health Component"));
 	DefaultWalkSpeed = 200.f;
 	RunSpeed = 350.f;
 }

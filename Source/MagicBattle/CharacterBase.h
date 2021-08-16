@@ -9,6 +9,7 @@
 class USpringArmComponent;
 class UCameraComponent;
 class UMyCharacterMovementComponent;
+class UHealthComponentBase;
 
 UCLASS()
 class MAGICBATTLE_API ACharacterBase : public ACharacter
@@ -20,6 +21,9 @@ class MAGICBATTLE_API ACharacterBase : public ACharacter
 
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Camera, meta=(AllowPrivateAccess = "true"))
 	UCameraComponent* Camera;
+
+	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Health, meta=(AllowPrivateAccess = "true"))
+	UHealthComponentBase* HealthComponent;
 
 public:
 	// Sets default values for this character's properties
