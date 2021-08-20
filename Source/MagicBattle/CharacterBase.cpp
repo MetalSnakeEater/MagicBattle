@@ -3,6 +3,7 @@
 
 #include "CharacterBase.h"
 #include "MagicBattle/ActorComponents/HealthComponentBase.h"
+#include "Components/CapsuleComponent.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
@@ -21,6 +22,9 @@ ACharacterBase::ACharacterBase(const class FObjectInitializer& ObjectInitializer
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(SpringArm);
 	Camera->bUsePawnControlRotation = true;
+
+	SpellThrowing = CreateDefaultSubobject<UCapsuleComponent>(TEXT("SpellThrowing"));
+	SpellThrowing->SetupAttachment(RootComponent);
 
 	HealthComponent = CreateDefaultSubobject<UHealthComponentBase>(TEXT("Health Component"));
 	DefaultWalkSpeed = 200.f;
@@ -48,13 +52,29 @@ void ACharacterBase::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &ACharacterBase::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &ACharacterBase::MoveRight);
-	PlayerInputComponent->BindAxis("LookUp", this, &ACharacterBase::AddControllerPitchInput);
+	PlayerInputComponent->BindAxis("LookUp", this, &ACharacterBase::LookUp);
 	PlayerInputComponent->BindAxis("Turn", this, &ACharacterBase::AddControllerYawInput);
 
 	PlayerInputComponent->BindAction("Run", IE_Pressed, this, &ACharacterBase::StartRunning);
 	PlayerInputComponent->BindAction("Run", IE_Released, this, &ACharacterBase::StopRunning);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacterBase::Jump);
 
+}
+
+void ACharacterBase::LookUp(float Val) 
+{
+	AddControllerPitchInput(Val);
+	FVector Location = FVector(5 * Val, 0, 5 * -Val);
+	FRotator Rotator = FRotator(1 * Val, 0, 0);
+	UE_LOG(LogTemp, Warning, TEXT("%s"), *(SpellThrowing->GetRelativeLocation().ToString()));
+	if (SpellThrowing->GetRelativeLocation().Z <= 100 && SpellThrowing->GetRelativeLocation().Z >= - 100)
+		SpellThrowing->AddRelativeLocation(Location);
+	SpellThrowing->AddLocalRotation(FQuat(Rotator));
+}
+
+void ACharacterBase::Turn(float Val) 
+{
+	AddControllerYawInput(Val);
 }
 
 UMyCharacterMovementComponent* ACharacterBase::GetMyMovementComponent() const

@@ -1,87 +1,87 @@
 [
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\ActorComponents\\\\HealthComponentBase.cpp",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Projects\\\\UE4\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\ActorComponents\\\\HealthComponentBase.cpp",
+		"command": "cl.exe @\"D:\\Projects\\UE4\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
+		"directory": "D:\\Programs\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\ActorComponents\\\\HealthComponentBase.h",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Projects\\\\UE4\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\ActorComponents\\\\HealthComponentBase.h",
+		"command": "cl.exe @\"D:\\Projects\\UE4\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
+		"directory": "D:\\Programs\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\CharacterBase.cpp",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Projects\\\\UE4\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\CharacterBase.cpp",
+		"command": "cl.exe @\"D:\\Projects\\UE4\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
+		"directory": "D:\\Programs\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\CharacterBase.h",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Projects\\\\UE4\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\CharacterBase.h",
+		"command": "cl.exe @\"D:\\Projects\\UE4\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
+		"directory": "D:\\Programs\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\GameModes\\\\BaseGameMode.cpp",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Projects\\\\UE4\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\GameModes\\\\BaseGameMode.cpp",
+		"command": "cl.exe @\"D:\\Projects\\UE4\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
+		"directory": "D:\\Programs\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\GameModes\\\\BaseGameMode.h",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Projects\\\\UE4\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\GameModes\\\\BaseGameMode.h",
+		"command": "cl.exe @\"D:\\Projects\\UE4\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
+		"directory": "D:\\Programs\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\MagicBattle.Build.cs",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Projects\\\\UE4\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\MagicBattle.Build.cs",
+		"command": "cl.exe @\"D:\\Projects\\UE4\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
+		"directory": "D:\\Programs\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\MagicBattle.cpp",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Projects\\\\UE4\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\MagicBattle.cpp",
+		"command": "cl.exe @\"D:\\Projects\\UE4\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
+		"directory": "D:\\Programs\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\MagicBattle.h",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Projects\\\\UE4\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\MagicBattle.h",
+		"command": "cl.exe @\"D:\\Projects\\UE4\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
+		"directory": "D:\\Programs\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\MagicBattleGameModeBase.cpp",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Projects\\\\UE4\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\MagicBattleGameModeBase.cpp",
+		"command": "cl.exe @\"D:\\Projects\\UE4\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
+		"directory": "D:\\Programs\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\MagicBattleGameModeBase.h",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Projects\\\\UE4\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\MagicBattleGameModeBase.h",
+		"command": "cl.exe @\"D:\\Projects\\UE4\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
+		"directory": "D:\\Programs\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\MyCharacterMovementComponent.cpp",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Projects\\\\UE4\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\MyCharacterMovementComponent.cpp",
+		"command": "cl.exe @\"D:\\Projects\\UE4\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
+		"directory": "D:\\Programs\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\MyCharacterMovementComponent.h",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Projects\\\\UE4\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\MyCharacterMovementComponent.h",
+		"command": "cl.exe @\"D:\\Projects\\UE4\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
+		"directory": "D:\\Programs\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\MyPlayerController.cpp",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Projects\\\\UE4\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\MyPlayerController.cpp",
+		"command": "cl.exe @\"D:\\Projects\\UE4\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
+		"directory": "D:\\Programs\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\MyPlayerController.h",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Projects\\\\UE4\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\MyPlayerController.h",
+		"command": "cl.exe @\"D:\\Projects\\UE4\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
+		"directory": "D:\\Programs\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\ProjectileBase.cpp",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Projects\\\\UE4\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\ProjectileBase.cpp",
+		"command": "cl.exe @\"D:\\Projects\\UE4\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
+		"directory": "D:\\Programs\\UE_4.26\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\UE 25\\\\Projects\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\ProjectileBase.h",
-		"command": "cl.exe @\"D:\\UE 25\\Projects\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
-		"directory": "D:\\UE 25\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\Projects\\\\UE4\\\\MagicBattle\\\\Source\\\\MagicBattle\\\\ProjectileBase.h",
+		"command": "cl.exe @\"D:\\Projects\\UE4\\MagicBattle\\.vscode\\compileCommands_MagicBattle\\MagicBattle.182.rsp\"",
+		"directory": "D:\\Programs\\UE_4.26\\Engine\\Source"
 	}
 ]

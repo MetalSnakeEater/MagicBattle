@@ -14,7 +14,7 @@ class MAGICBATTLE_API AProjectileBase : public AActor
 {
 	GENERATED_BODY()
 	
-	UPROPERTY(EditDefaultsOnly)
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
 	UStaticMeshComponent* Mesh;
 
 	UPROPERTY(EditDefaultsOnly)

@@ -37,14 +37,16 @@ void UHealthComponentBase::TickComponent(float DeltaTime, ELevelTick TickType, F
 	// ...
 }
 
+// This function is not replicating, so you can't actualy use it
+// Instead I used blueprints events in BP_CharacterBase and BP_ProjicteBase
 void UHealthComponentBase::TakeDamage(AActor* DamagedActor, float Damage, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser) 
 {
 	if (Damage <= 0)
 		return;
 
-	Health = FMath::Clamp(Health - Damage, 0.f, DefaultHealth);
+	//Health = FMath::Clamp(Health - Damage, 0.f, DefaultHealth);
 
-	if (Health == 0.f)
-		GetOwner()->Destroy();	
+	// if (Health == 0.f)
+	// 	GetOwner()->Destroy();	
 }
 

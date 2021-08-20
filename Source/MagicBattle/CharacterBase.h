@@ -6,10 +6,11 @@
 #include "GameFramework/Character.h"
 #include "CharacterBase.generated.h"
 
-class USpringArmComponent;
+class UCapsuleComponent;
 class UCameraComponent;
 class UMyCharacterMovementComponent;
 class UHealthComponentBase;
+class USpringArmComponent;
 
 UCLASS()
 class MAGICBATTLE_API ACharacterBase : public ACharacter
@@ -24,6 +25,9 @@ class MAGICBATTLE_API ACharacterBase : public ACharacter
 
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Health, meta=(AllowPrivateAccess = "true"))
 	UHealthComponentBase* HealthComponent;
+
+	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Spell, meta=(AllowPrivateAccess = "true"))
+	UCapsuleComponent* SpellThrowing;
 
 public:
 	// Sets default values for this character's properties
@@ -46,6 +50,8 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	void LookUp(float Val);
+	void Turn(float Val);
 	void MoveForward(float Val);
 	void MoveRight(float Val);
 	virtual void StartRunning();

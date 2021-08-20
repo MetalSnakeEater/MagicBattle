@@ -3,14 +3,14 @@
         {
             "name": "MagicBattleEditor Editor Win64 Development (MagicBattle)",
             "intelliSenseMode": "msvc-x64",
-            "compileCommands": "D:\\UE 25\\Projects\\MagicBattle\\.vscode\\compileCommands_MagicBattle.json",
+            "compileCommands": "D:\\Projects\\UE4\\MagicBattle\\.vscode\\compileCommands_MagicBattle.json",
             "cStandard": "c17",
             "cppStandard": "c++17"
         },
         {
             "name": "Win32",
             "intelliSenseMode": "msvc-x64",
-            "compileCommands": "D:\\UE 25\\Projects\\MagicBattle\\.vscode\\compileCommands_Default.json",
+            "compileCommands": "D:\\Projects\\UE4\\MagicBattle\\.vscode\\compileCommands_Default.json",
             "cStandard": "c17",
             "cppStandard": "c++17"
         }
